@@ -3,7 +3,7 @@ Faker is a library for generating fake data such as names, addresses, and phone 
 
 It is a (mostly) API-compatible port of Ruby Faker gem (https://github.com/stympy/faker) to Go.
 */
-package faker // import "syreclabs.com/go/faker"
+package faker // import "github.com/gomeet/faker"
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"syreclabs.com/go/faker/locales"
+	"github.com/gomeet/faker/locales"
 )
 
 const (
